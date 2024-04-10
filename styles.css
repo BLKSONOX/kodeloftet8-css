@@ -1,35 +1,29 @@
-body {
-    background-color: blueviolet;
-  }
-
-h1{
-    background-color:aliceblue;
-  }
-
-h2{
-    background-color: chocolate;
-  }
-
-span{ 
-    color:gold;
-  }
-
-  .background-color-white {
-    background-color: white;
-  }
-
-#welcome-section{
-    background-color: slateblue;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+/*
+    overskriv default styling
+    (normalize css, reset css)
+*/
+* {
+    margin: 0px;
 }
 
-#project-section{
-    background-color: black;
-    color: white;  
+/*
+    Layout struct
+*/
+
+body{
+    height: 100vh; /* vh = view height */
+    display: flex;
+    flex-direction: column;
 }
-#project-section p.background-color-white{
-    color: black;
+
+#navbar{
+    background-color: rgb(86, 86, 86);
+}
+
+#main{
+    flex-grow: 1;
+}
+
+#footer{
+    background-color: rgb(86, 86, 86);
 }
