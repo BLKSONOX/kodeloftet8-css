@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+  }
+
+h1{
+    background-color:aliceblue;
+  }
+
+h2{
+    background-color: chocolate;
+  }
+
+span{ 
+    color:gold;
+  }
+
+  .background-color-white {
+    background-color: white;
+  }
+
+#welcome-section{
+    background-color: slateblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#project-section{
+    background-color: black;
+    color: white;  
+}
+#project-section p.background-color-white{
+    color: black;
+}
